@@ -141,7 +141,6 @@ class Jokenpo
                 int partida  = int.Parse( Console.ReadLine());
 
 
-
                 int usuario = 0;
                 int goku1 =0 ;
                 int empate = 0;
@@ -320,7 +319,9 @@ class Jokenpo
                         
 
 
-                    }               
+                    }
+                    Console.ReadKey();
+                    Console.Clear();
 
 
 
